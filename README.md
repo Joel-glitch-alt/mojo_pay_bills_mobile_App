@@ -108,5 +108,90 @@ flutter build apk
 
 ---
 
+APK location:
+
+build/app/outputs/flutter-apk/
+iOS Build
+
+Build iOS application:
+
+flutter build ios
+
+For App Store distribution:
+
+flutter build ipa
+
+Note: App Store deployment requires an Apple Developer account.
+
+Environment Configuration
+
+Before running the application, configure:
+
+API endpoints
+Authentication keys
+Environment variables
+
+Example:
+
+API_BASE_URL=https://api.example.com
+Development Workflow
+
+Create a new feature:
+
+git checkout -b feature/new-feature
+
+Commit changes:
+
+git add .
+git commit -m "Add new feature"
+
+Push changes:
+
+git push origin feature/new-feature
+Deployment
+iOS
+
+Requirements:
+
+Apple Developer Account
+Provisioning profile
+Distribution certificate
+
+Deployment options:
+
+TestFlight
+App Store
+Android
+
+Deployment options:
+
+Google Play Store
+APK distribution
+Application Information
+
+Application Name: Mojo Pay Bills
+Company: MojoPay Ghana
+Framework: Flutter
+Platforms: iOS & Android
+
+Developer
+
+Developed by:
+
+Joel Doku
+
+License
+
+Copyright © MojoPay Ghana.
+
+All rights reserved.
+
+
+After replacing your README, push it:
+
+```bash
+git add README.md
+git commit -m "Update project documentation"
+git push
 ## Project Structure
 
